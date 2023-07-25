@@ -1,0 +1,56 @@
+# Tarl-style
+
+# TEXT
+text.color : (0.2,0.2,0.2)  # Set text color
+
+# FONT
+font.family : Arial  # Set font family
+
+# AXES
+axes.titlesize : 16  # Set title font size
+axes.labelsize : 14  # Set label font size
+axes.edgecolor : (0.1,0.1,0.1)  # Set axes edge color
+axes.labelcolor : (0.1,0.1,0.1)  # Set axes label color
+axes.linewidth : 1  # Set axes line width
+
+# GRID
+axes.grid : True  # Enable grid
+grid.alpha : 0.5  # Set grid transparency
+grid.linestyle : -  # Set grid line style
+grid.linewidth : 0.5  # Set grid line width
+axes.axisbelow : line  # Draw grid lines below plot elements
+
+# LINES
+axes.prop_cycle : cycler('color', ['a93329', 'e3b73c', '0c9458', '2154ac', 'd94234', 'ffd200', '378fdd', '0ca55f', '6b3e26', 'eac100', '207178', '3f2350', 'e17f32', 'f3c300', '2c7aaf', '24a090', '8b572a', 'f06eaa', '7ed321', 'bd10e0', '50e3c2', 'b8e986', '4a90e2', '9013fe'])
+
+# Set colors for plot elements (lines, markers, etc.)
+# Colors: dark red, dark yellow, dark green, dark blue, light red, light yellow, light blue, light green,
+#         dark brown, dark gold, dark teal, dark purple, light orange, light gold, light steel blue,
+#         light sea green, brownish orange, soft pink, lime green, vibrant purple, turquoise,
+#         light lime green, medium blue, royal purple
+lines.linewidth : 1.5  # Set line width
+lines.markeredgewidth : 0.0  # Set marker edge width
+lines.markersize : 15  # Set marker size
+
+
+# SCATTER PLOT
+scatter.marker : .  # Set scatter plot marker style
+scatter.edgecolors : k  # Set scatter plot marker edge colors
+
+# TICKS
+xtick.labelsize : 13  # Set x-axis tick label size
+xtick.color : (0.2,0.2,0.2)  # Set x-axis tick color
+xtick.major.pad : 8  # Set x-axis tick padding
+xtick.direction : out  # Set x-axis tick direction
+ytick.labelsize : 13  # Set y-axis tick label size
+ytick.color : (0.2,0.2,0.2)  # Set y-axis tick color
+ytick.major.pad : 8  # Set y-axis tick padding
+ytick.direction : out  # Set y-axis tick direction
+
+# FIGURE OUTPUT
+savefig.dpi : 300  # Set output figure DPI
+figure.figsize : 10, 6  # Set default figure size to (10, 6)
+
+
+# LEGEND
+legend.fontsize : 12  # Set legend font size
